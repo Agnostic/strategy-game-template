@@ -73,7 +73,7 @@ function create() {
   // Audio
   music = game.add.audio('music');
   game.sound.setDecodedCallback([music], function() {
-    // music.loopFull();
+    music.loopFull();
   }, this);
 
   audioFX.create = game.add.audio('createFX');
